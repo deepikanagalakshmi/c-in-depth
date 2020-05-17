@@ -12,4 +12,5 @@ int main()
     getline(cin, color);
     cout << "Hey " << color << " is my fav. color too" << endl;
     return 0;
+    
 }
