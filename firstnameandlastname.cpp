@@ -9,5 +9,4 @@ int main() {
 	getline(cin, last_name);
 
 	cout << "Welcome " << first_name << " " << last_name;
-
 }
