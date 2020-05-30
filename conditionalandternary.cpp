@@ -22,7 +22,7 @@ int main()
 	else if (rating == 5) {
 		puts("Excellent ratings");
 
-	}
+       }
 	else {
 		puts("Enter rating from 1-5");
 	}
