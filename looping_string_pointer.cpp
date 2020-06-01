@@ -32,7 +32,7 @@ int main()
 
 	cout << "take a break part 3 using for each\n";
   
-	//also trys to print the element 0 so handel with if
+	//this loop also trys to print the element 0 so handel with if
 	for (char i : my_name) {
 		if (i == 0) break;
 		cout << "char is: " << i<<endl;
