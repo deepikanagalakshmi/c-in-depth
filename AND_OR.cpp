@@ -22,4 +22,4 @@ int main()
     if (isFbUser || isGoogleUser) {
         puts("Welcome user");
     }
-}
+} 
