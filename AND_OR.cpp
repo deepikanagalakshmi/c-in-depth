@@ -11,10 +11,15 @@ int main()
     if (isSignedIn && isAdmin) {
         puts("Welcome Admin!");
     }
+    
     cout << "Using AND and OR\n";
-
     if ((isGoogleUser || isFbUser) && isAdmin)
     {
         puts("Welcome Admin!!");
+    }
+    
+    cout << "Using OR\n";
+    if (isFbUser || isGoogleUser) {
+        puts("Welcome user");
     }
 }
