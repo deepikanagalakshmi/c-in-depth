@@ -18,4 +18,3 @@ int main()
 	cout << addme(v1, v2) << endl;
 	cout << addme(v3, v4) << endl;
 }
-
