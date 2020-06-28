@@ -6,6 +6,7 @@ class User
 {
 	string secret = "This is secret message";
 	int secret_no = 12233;
+
 public:
 	string name = "default";
 	void classMessage() {
