@@ -11,7 +11,7 @@ public:
 	Phone();//default constructor
 	Phone(const string& name, const string& os, const int& price);//parameter constructor
 	Phone(const Phone&);//copy constructor
-	string getName() {
+	string getOS() {
 		return _os;
 	}
 	~Phone();
@@ -43,14 +43,14 @@ Phone::~Phone() {
 int main()
 {
 	Phone samsung;
-	cout<<samsung.getName()<<endl;
+	cout<<samsung.getOS()<<endl;
 
 	Phone OnePlus8("OnePlus8", "oxy_Android", 799);
-	cout<<OnePlus8.getName()<<endl;
+	cout<<OnePlus8.getOS()<<endl;
   
 	//we can also copy object like copying one variable to other
 	Phone OnePlusS = OnePlus8;
-	cout<<OnePlusS.getName()<<endl;
+	cout<<OnePlusS.getOS()<<endl;
 }
 
 //CONSTRUCTORA
