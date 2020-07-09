@@ -11,4 +11,7 @@ To use smart pointers must include <memory> header file
 
 #include <memory>
 
-//some compailers may not support smart pointers
+some compailers may not support smart pointers
+
+LINK
+https://docs.microsoft.com/en-us/cpp/cpp/smart-pointers-modern-cpp?view=vs-2019
