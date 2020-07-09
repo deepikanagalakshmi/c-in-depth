@@ -1,0 +1,14 @@
+SMART POINTERS
+
+In traditional pointers we need to use new and delete
+NEW- Allocates a memory
+DELETE - Deallocates a memory
+
+With new keyword, delete is must to used but, some times developers forget to use delete keyword 
+which may lead to memory leeks and serious security issues this is where SMART POINTERS comes in place.
+
+To use smart pointers must include <memory> header file
+
+#include <memory>
+
+//some compailers may not support smart pointers
